@@ -1,0 +1,12 @@
+basically 
+1. create text file where all the details from starting is stored and printed out in the server side, alll the messages should be written inside the file as soon as any thing is published.
+2. 3 brokers 
+3. zookeeper maintains all the brokers and checks their health, assgins the new broker leader if old leader stops working(need to search for one algo for the same).
+4. multiple consumer and publishers can be there and should not be hard coded.
+5. broker 
+
+
+
+*************for the client program********************
+one file with option that calls either publisher module or consumer module.
+
